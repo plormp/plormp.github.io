@@ -30,6 +30,30 @@
     background-position-x: 99px;
 }
 
+.ds4 .back, .ds4 .start {
+    background: url(https://i.imgur.com/5H5CP6C.png);
+    width: 28px;
+    height: 46px;
+    opacity: 0;
+}
+
+.ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
+    opacity: 1;
+}
+
+.ds4 .back {
+    float: left;
+    /* width: 28px; */
+}
+
+.ds4 .start {
+    float: right;
+    /* width: 28px; */
+    background-position: 28px 0;
+}
+
 .ds4 .touchpad {
     width: 262px;
     height: 151px;
